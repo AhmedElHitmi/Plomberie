@@ -1,12 +1,18 @@
+*{
+  font-family: 'Kaushan Script', cursive;
+  background-color:#EFFBF8;
+}
+
 body {
   /*border:1px solid black;*/
   width: 100%;
   height: 100%;
-  /*margin-left: 5%;
-  margin-right: 5%;*/
+
 
 }
 header {
+
+  background-color: #E0F2F7;
   display:flex;
   /*border:1px solid black;*/
   width: auto;
@@ -24,6 +30,8 @@ footer {
   height: 50px;
   border:1px solid black;
   background-color: #2E64FE;
+  color:red;
+  text-align: center;
 }
 
 /*-------------------Header----------------------*/
@@ -61,7 +69,8 @@ h1 {
 /*********************** lavabo.html *******************/
 /*******************************************************/
 .tit{
-  width: 100%;
+  padding-top: 10px;
+  width: 90%;
   text-align: center;
   color:blue;
 }
@@ -71,8 +80,12 @@ h1 {
   color:blue;
 }
 
-.parag{
+.parag p{
+  width: 100%;
   color:blue;
+  margin: 5px 5px;
+  text-align: center;
+
 }
 .choix{
 margin-left: 510px;
@@ -87,16 +100,34 @@ margin-bottom: 20px;
 /*******************************************************/
 /*********************** lavabo-fin.html *******************/
 /*******************************************************/
-.ima img {
-  width: 50%;
-  height: 50%;
-  float: right;
 
+.image{
+  /*display:flex;*/
+}
+
+.ima  {
+  width: 40%;
+  height: 40%;
 }
 
 .text-fin {
   margin-top: 30%;
-  border:1px solid black;
+  border:1px Dashed black;
+  width: 40%;
+  padding:20px 20px 20px 20px;
+}
+
+.cadrage {
+  margin-top: 5%;
+  padding: 40px 40px;
+}
+
+
+/*******************************************************/
+/*********************** Siphon-fin-fin.html *******************/
+/*******************************************************/
+.text-fin-s {
+  margin-top: 50%;
+  border:1px Dashed black;
   width: 50%;
-  /*height: 50%;*/
 }

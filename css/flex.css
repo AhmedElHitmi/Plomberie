@@ -26,10 +26,20 @@
 
 /********************* Flex item****************/
 .flex-item h3 {
-padding-left: 35px;
+  padding-left: 45px;
   color:blue;
 }
 
+.flex-item img {
+  width: 250px;
+  height: 250px;
+
+}
+
+.flex img {
+  width: 400px;
+  height: 400px;
+}
 
 /********************* /Flex item****************/
 /********************* Section footer****************/
