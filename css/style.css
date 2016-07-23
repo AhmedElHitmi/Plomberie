@@ -1,14 +1,16 @@
 body {
-  border:1px solid black;
-  width: 100%;
+  /*border:1px solid black;*/
+  width: 90%;
   height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
 
 }
 header {
   display:flex;
   /*border:1px solid black;*/
   width: auto;
-  height: 120px;;
+  height: auto;
 }
 
 section {
@@ -25,12 +27,12 @@ footer {
 
 /*-------------------Header----------------------*/
 .logo {
-  width: 70px;
+  width: 90px;
 }
 
 .logo img {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
 
 /*img {
@@ -39,13 +41,24 @@ footer {
 }*/
 
 h1 {
+  padding-top: 10px;
   color:blue;
   width: 100%;
   text-align: center;
 }
 
-h3 {
-  color:blue;
+.service {
+  color:red;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 /*------------------/Header----------------------*/
+
+/*******************************************************/
+/*********************** lavabo.html *******************/
+/*******************************************************/
+.lavabo {
+  
+}

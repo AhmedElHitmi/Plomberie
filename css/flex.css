@@ -1,35 +1,23 @@
 /********************* Flex container****************/
-/*.corps {
-  display:flex;
-  width: 80%;
-  margin:10% 10%;
-}*/
 
 .flexbox {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /*margin:10% 10%;*/
   justify-content: space-between;
   align-items: flex-start;
 }
 
 /********************* Image container****************/
-/*.image {
-  width: 100%;
-  height: auto;
 
-}*/
 .flexbox h1 {
   width: 60%;
   color:blue;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
 }
 
 .flex-item h1 {
-  /*position: absolute;*/
-  /*top:50%;*/
-  /*z-index: 1;*/
+
   color:#fff;
   width: 100%;
   text-align: center;
@@ -37,23 +25,16 @@
 /********************* /Image container****************/
 
 /********************* Flex item****************/
-.flex-item {
-  /*position: relative;*/
-  /*flex: 1 200px;*/
-  /*margin: 80px 80px;*/
+.flex-item h3 {
+padding-left: 35px;
+  color:blue;
 }
 
 
 /********************* /Flex item****************/
 /********************* Section footer****************/
 
-/*.foota {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-}*/
+
 /********************* /Section footer****************/
 
 
