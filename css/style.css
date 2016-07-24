@@ -88,14 +88,51 @@ h1 {
 
 }
 .choix{
-margin-left: 510px;
-margin-bottom: 20px;
+  margin-left: 510px;
+  margin-bottom: 20px;
 }
 
 .btctr{
   margin-left: 540px;
   margin-bottom: 30px;
 }
+
+.bonasav h1{
+  font-size: 22px;
+  margin-left: 4%;
+  width: 100%;
+  text-align: left;
+}
+
+.bonasav p{
+  font-size: 20px;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding:15px 15px 15px 15px;
+}
+
+/*******************************************************/
+/*********************** carte region *******************/
+/*******************************************************/
+
+
+.region {
+  margin-top: 3%;
+  margin-left: 25%;
+}
+
+.nom-de-region {
+  margin-top: -350px;
+  margin-right: 10%;
+}
+.nom-de-region li {
+  font-size: 18px;
+  margin-top: 0;
+  list-style: none;
+  text-align: right;
+}
+
+
 
 /*******************************************************/
 /*********************** lavabo-fin.html *******************/
