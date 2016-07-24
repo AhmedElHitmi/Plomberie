@@ -9,6 +9,7 @@ body {
   height: 100%;
 
 
+
 }
 header {
 
@@ -64,6 +65,13 @@ h1 {
   background-color: #58D3F7;
 }
 
+.image{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+
+
 /*------------------/Header----------------------*/
 /*******************************************************/
 /*********************** lavabo.html *******************/
@@ -83,13 +91,19 @@ h1 {
 .parag p{
   width: 100%;
   color:blue;
-  margin: 5px 5px;
+  margin-top: 10px;
+  padding-left: 35px;
   text-align: center;
+  font-size: 17px;
 
 }
 .choix{
-  margin-left: 510px;
+  display:flex;
+  position: relative;
+  width: 100%;
+  margin-left: 530px;
   margin-bottom: 20px;
+  font-size: 17px;
 }
 
 .btctr{
@@ -167,4 +181,12 @@ h1 {
   margin-top: 50%;
   border:1px Dashed black;
   width: 50%;
+}
+/*******************************************************/
+/*********************** Ballon.html *******************/
+/*******************************************************/
+.defile img{
+  width: 300px;
+  height: 300px;
+
 }
