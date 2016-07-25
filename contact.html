@@ -17,7 +17,9 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-        <title>Robinetterie</title>
+        <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+        <title>Contact</title>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -29,48 +31,72 @@
                 <div class="logo">
                   <img src="img/logo.jpeg" alt="logo">
                 </div>
-                <h1>VOTRE PLOMBIER DU QUARTIER</h1>
+
+                <h1>VOTRE PLOMBIER DU QUARTIER </h1>
 
                 <div class="logo">
-                  <img src="img/depannage.png" alt="Dépannage">
+                  <!-- <img src="img/depannage.png" alt="Dépannage"> -->
+                  <img src="img/plombier.gif" alt="Dépannage">
                 </div>
           </div>
 
         </header>
     <!-- ***************** fin header ********************** -->
-    <div class="service">
-      <h3>Appelez le service clients au : <span>01.02.03.04.05</span></h3>
-    </div>
-
-        <div class="tit">
-          <h2>Débouchage d'un lavabo / évier</h2>
+    <!-- *****************Message defilant ********************** -->
+        <div class="service">
+            <marquee behavior="slide loop=0">
+              <h3>Appelez le service clients au : <span>01.02.03.04.05</span></h3>
+            </marquee>
         </div>
-        <section class="flexbox cadrage">
-            <p class="text-fin">
-              Débouchage d'un lavabo / évier sans sanispeed tarif estimatif entre 100€ et 180€
-              Le tarif comprend :  le déplacement  la main d'oeuvre le nettoyage du chantier
-              Le plombier vous contactera sous 20 minutes après le passage de la commande afin de confirmer le rendez-vous. Une fois sur place, il analysera la situation et vous présentera un devis définitif. En cas de non acceptation du devis aucun frais n’est engagé (ni déplacement, ni établissement du devis)
 
-            </p>
-            <div class="ima">
-              <img src="img/lavabo.jpeg" alt="lavabo" />
-            </div>
-          </section>
-
-<!--************************** bouton retour ********************************  -->
+    <!-- ***************** section formulaire contact ********************** -->
+    <article class="msg">
+      <form class="form_request" action="index.html" method="post">
+        <fieldset class="coord">
+          <legend>Vos coordonnées</legend>
+        <p>
+          <label for="text"> Nom :   </label>
+          <input type="text" name="nom" size="30" value="">
+        </p>
+  ​
+        <p>
+          <label for="text"> Prénom: </label>
+          <input type="text" name="prenom" size="30" value="">
+        </p>
+  ​
+        <p>
+          <label for="text"> Email:  </label>
+          <input type="email" name="mail" size="30" value="">
+        </p>
+  ​
+        <p>
+          <label for="comment"> Commentaire: </label>
+          <textarea name="com" rows="8" cols="40"></textarea>
+        </p>
+  ​
+        <p>
+          <input type="button" name="envoy" value="Envoyer" class="envoy">
+        </p>
           <div class="bt-retour btctr">
-            <a class="btn btn-primary" href="lavabo.html" role="button">Retour</a>
+            <a class="btn btn-primary" href="index.html" role="button">Retour</a>
           </div>
-<!--************************** /bouton retour ********************************  -->
-<!--************************** Bouton de commande ********************************  -->
 
-        <div class="bouton">
-          <input type="button" name="contact" value="Passez votre commande ici " onclick="self.location.href='contact.html'"onclick>
-        </div>
+        </fieldset>
+      </form>
+    </article>
+
+
+
+
+
+      <!-- ***************** /section formulaire contact ********************** -->
+
+<!-- ************************* Footer ************ ********************** -->
 
         <footer>
-        <p>N'oubliez pas d'appeler le service client 7 jours/7  24 heures/24h au 01.02.03.04.05</p>
-
+          <marquee behavior="slide loop=0">
+            <p>N'oubliez pas d'appeler le service client 7 jours/7  24 heures/24h au 01.02.03.04.05</p>
+          </marquee>
         </footer>
 
 

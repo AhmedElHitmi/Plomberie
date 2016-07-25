@@ -8,12 +8,8 @@ body {
   /*border:1px solid black;*/
   width: 100%;
   height: 100%;
-
-
-
 }
 header {
-
   font-family: 'ABeeZee', sans-serif;
   font-size: 35px;
   background-color: #E0F2F7;
@@ -25,7 +21,7 @@ header {
 
 section {
   /*border: :1px solid black;*/
-  width: 100%;
+  width: auto;
   /*height: 440px;*/
 }
 
@@ -155,9 +151,6 @@ h1 {
 /*********************** lavabo-fin.html *******************/
 /*******************************************************/
 
-.image{
-  /*display:flex;*/
-}
 
 .ima  {
   width: 40%;
@@ -198,6 +191,7 @@ h1 {
   display:flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .tex p{
@@ -211,7 +205,33 @@ h1 {
   width: auto;
 }
 .log{
+  width: 10%;
+}
+.msg {
+  border:1px solid #ffbf00;
   width: 40%;
+  margin:auto;
+  text-align: center;
+  background-color: #fff;
 }
 
-.
+.bouton{
+width: 10%;
+background-color:#DF0101;
+color:grey;
+font-weight:bold;
+text-align: center;
+}
+input,
+textarea{
+  background-color:white;
+}
+.botn{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: auto;
+  margin-right: 25%;
+}
