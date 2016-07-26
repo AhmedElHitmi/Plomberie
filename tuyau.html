@@ -39,10 +39,11 @@
         </header>
     <!-- ***************** fin header ********************** -->
     <div class="service">
-      <h3>Appelez le service clients au : <span>01.02.03.04.05</span></h3>
+        <marquee behavior="slide loop=0">
+          <h3>Appelez le service clients au : <span>01.02.03.04.05</span></h3>
+        </marquee>
     </div>
-
-      <!--************************** section images ********************************  -->
+  <!--************************** section images ********************************  -->
       <section>
         <div class="flexbox">
 
@@ -83,15 +84,23 @@
           </div>
 
 
-        </div>
-        </section>
-        <div class="bt-retour btctr">
-          <a class="btn btn-primary" href="index.html" role="button">Retour</a>
-        </div>
+  <!--************************** Bouton retour ********************************  -->
+          <section class="botn">
+            <div class="bt-retour btctr">
+              <a class="btn btn-primary" href="index.html" role="button">Retour</a>
+            </div>
 
-  <!--************************** /bouton retour ********************************  -->
+  <!--************************** Bouton de commande ********************************  -->
+
+            <div class="bouton">
+              <input type="button" name="contact" value="Passez votre commande ici " onclick="self.location.href='contact.html'"onclick>
+            </div>
+          </section>
+<!--************************** /bouton retour ********************************  -->
         <footer>
-          <p>N'oubliez pas d'appeler le service client 7 jours/7  24 heures/24h au 01.02.03.04.05</p>
+          <marquee behavior="slide loop=0">
+            <p>N'oubliez pas d'appeler le service client 7 jours/7  24 heures/24h au 01.02.03.04.05</p>
+          </marquee>
 
         </footer>
 

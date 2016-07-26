@@ -203,9 +203,11 @@ h1 {
 
 .log img{
   width: auto;
+  float:right;
 }
 .log{
   width: 10%;
+
 }
 .msg {
   border:1px solid #ffbf00;
@@ -221,6 +223,12 @@ background-color:#DF0101;
 color:grey;
 font-weight:bold;
 text-align: center;
+}
+
+.bouton input{
+  height: 40px;
+  background-color: orange;
+  color:red;
 }
 input,
 textarea{
